@@ -1,9 +1,12 @@
 import React from 'react';
 
+import DesktopBar from './desktop/desktopBar';
+
 const Desktop = () => {
     return (
-        <div className='bg-red-500'>
-            <h1 className='text-white'>Desktop</h1>
+        <div className='bg-desktop-bg-color h-screen w-screen'>
+
+            <DesktopBar />
         </div>
     )
 }
